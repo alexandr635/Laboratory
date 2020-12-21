@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0a767de381b343ce898001f70f052ca2" Name="Diagram1">
+        <EntityTypeShape EntityType="LaboratoryModel.Account" Width="1.5" PointX="7.5" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Analyzer" Width="1.5" PointX="5.25" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.AnalyzerService" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Bill" Width="1.5" PointX="5.25" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.EmployeeData" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.EmployeeServis" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.InsuranceCompany" Width="1.5" PointX="3" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.LoginHistory" Width="1.5" PointX="5.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Order" Width="1.5" PointX="8.25" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.OrderService" Width="1.5" PointX="10.5" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Patient" Width="1.5" PointX="8.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Role" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Service" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.Status" Width="1.5" PointX="6" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.sysdiagram" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.TypeOfInsurancePolicy" Width="1.5" PointX="6" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LaboratoryModel.User" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="LaboratoryModel.FK_Account_Bill" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_Account_EmployeeData" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_AnalyzerServices_Analyzer" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_AnalyzerServices_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_Bill_InsuranceCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_EmployeeData_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_EmployeeServises_EmployeeData" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_EmployeeServises_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_Patient_InsuranceCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_LoginHistory_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_Order_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_OrderServices_Order1" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_OrderServices_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_OrderServices_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_Patient_TypeOfInsurancePolicy" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_Patient_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LaboratoryModel.FK_User_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratory", "Laboratory\Laboratory.csproj", "{9DC1CA32-F190-43EA-875A-0E8F85EB423F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBase", "DataBase\DataBase.csproj", "{50DD1D39-6591-46EC-BBF2-4AE998FD715C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{9D0EC7CA-29D3-4A9E-9465-EFA29EB151C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DC1CA32-F190-43EA-875A-0E8F85EB423F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC1CA32-F190-43EA-875A-0E8F85EB423F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC1CA32-F190-43EA-875A-0E8F85EB423F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC1CA32-F190-43EA-875A-0E8F85EB423F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50DD1D39-6591-46EC-BBF2-4AE998FD715C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50DD1D39-6591-46EC-BBF2-4AE998FD715C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50DD1D39-6591-46EC-BBF2-4AE998FD715C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50DD1D39-6591-46EC-BBF2-4AE998FD715C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0EC7CA-29D3-4A9E-9465-EFA29EB151C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0EC7CA-29D3-4A9E-9465-EFA29EB151C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0EC7CA-29D3-4A9E-9465-EFA29EB151C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0EC7CA-29D3-4A9E-9465-EFA29EB151C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D1C91E2-140A-4FE7-937D-1AF9FBFBC7A9}
+	EndGlobalSection
+EndGlobal
